@@ -49,10 +49,10 @@ class Login extends Component {
 
     render() {
         return (
-            <div class="loginblock">
-                <div class="row">
-                    <h2 class="autorization__name">Авторизація</h2>
-                <div class="col">
+            <div className="loginblock">
+                <div className="row">
+                    <h2 className="autorization__name">Авторизація</h2>
+                <div className="col">
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         <input name="email" type="text" className="login" value={this.state.username} onChange={this.handleChange}/>
