@@ -40,10 +40,10 @@ class Signup extends Component{
 
     render() {
         return (
-           <div class="registrationblock">
-            <div class="row">
+           <div className="registrationblock">
+            <div classNme="row">
                 <h2 className="registration__name">Реєстрація</h2>
-                <div class="col">
+                <div className="col">
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         <input name="email" type="email" className="email" value={this.state.email} onChange={this.handleChange}/>
