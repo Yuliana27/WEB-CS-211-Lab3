@@ -65,7 +65,7 @@ class Signup extends Component{
                         <input name="password2" type="password" className="password" value={this.state.password} onChange={this.handleChange}/>
                         { this.state.errors.password ? this.state.errors.password : null}
                     </label>
-                    <button class="enter" type="submit">Зареєструватися</button>
+                    <Button class="enter" type="submit">Зареєструватися</Button>
                     </div>
                     </div>
                 </form>
